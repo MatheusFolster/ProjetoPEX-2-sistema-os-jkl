@@ -83,6 +83,6 @@ Para executar o projeto localmente, você precisará ter o backend e o frontend 
 1.  Abra a pasta `frontend-JS` com o Visual Studio Code.
 2.  Clique com o botão direito no arquivo `index.html`.
 3.  Selecione **"Open with Live Server"**.
-4.  Seu navegador abrirá automaticamente a aplicação (em um endereço como `http://127.0.0.1:5500/frontend-JS/index.html`) e ela já estará conectada ao seu backend.
+4.  Seu navegador abrirá automaticamente a aplicação e ela já estará conectada ao seu backend.
 
 Agora você pode usar o sistema!
