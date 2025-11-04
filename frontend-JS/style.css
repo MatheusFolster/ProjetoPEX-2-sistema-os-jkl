@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Container principal que vai alinhar as seções lado a lado */
+main {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Espaço entre as seções */
+}
+
+/* Estilo para cada seção (Clientes e OS) */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+/* Estilos para os formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input, select, textarea, button {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif; /* Garante que a fonte seja a mesma */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar a área de texto na vertical */
+    min-height: 80px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animação mais suave */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para as listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Animação mais suave */
+}
+
+/* ---- NOVOS ESTILOS ---- */
+
+/* Melhora visual dos inputs quando estão em foco (clicados) */
+input:focus, select:focus, textarea:focus {
+    outline: none; /* Remove a borda padrão do navegador */
+    border-color: #007bff; /* Deixa a borda azul */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra azul suave */
+}
+
+/* Efeito ao passar o mouse sobre os itens da lista */
+li:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}

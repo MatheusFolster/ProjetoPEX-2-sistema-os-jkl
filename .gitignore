@@ -1,0 +1,11 @@
+# Arquivos de IDE (IntelliJ, VSCode)
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de Build do Maven (Spring Boot)
+target/
+.mvn/
+
+# Logs
+*.log

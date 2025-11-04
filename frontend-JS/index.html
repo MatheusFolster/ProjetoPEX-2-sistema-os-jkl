@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKL - Gestão de Ordens de Serviço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gestão de Ordens de Serviço - JKL</h1>
+    </header>
+
+    <main>
+        <section id="clientes-section">
+            <h2>Clientes</h2>
+            <form id="form-cliente">
+                <input type="text" id="cliente-nome" placeholder="Nome do Cliente" required>
+                <input type="text" id="cliente-contato" placeholder="Contato">
+                <input type="email" id="cliente-email" placeholder="Email">
+                <input type="tel" id="cliente-telefone" placeholder="Telefone">
+                <button type="submit">Adicionar Cliente</button>
+            </form>
+            <h3>Lista de Clientes</h3>
+            <ul id="lista-clientes">
+                </ul>
+        </section>
+
+        <section id="os-section">
+            <h2>Ordens de Serviço</h2>
+            <form id="form-os">
+                <select id="os-cliente-select" required>
+                    <option value="">Selecione um Cliente</option>
+                    </select>
+                <input type="text" id="os-titulo" placeholder="Título da OS" required>
+                <textarea id="os-descricao" placeholder="Descrição da OS" required></textarea>
+                <button type="submit">Criar Ordem de Serviço</button>
+            </form>
+            <h3>Lista de Ordens de Serviço</h3>
+            <ul id="lista-os">
+                </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
