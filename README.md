@@ -4,7 +4,7 @@ Este é o segundo Projeto de Extensão (PEX-2) do curso de Análise e Desenvolvi
 
 O projeto foi construído do zero, cobrindo desde a modelagem do banco de dados relacional no PostgreSQL, passando pelo desenvolvimento de uma API REST robusta com Spring Boot (Java), até a criação de uma interface de usuário (frontend) interativa com JavaScript puro.
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 O sistema permite o gerenciamento completo do ciclo de vida dos clientes e suas respectivas ordens de serviço.
 
@@ -22,7 +22,7 @@ O sistema permite o gerenciamento completo do ciclo de vida dos clientes e suas 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 O projeto é dividido em duas partes principais: `backend-java` e `frontend-JS`.
 
@@ -48,7 +48,7 @@ O projeto é dividido em duas partes principais: `backend-java` e `frontend-JS`.
 
 ---
 
-## 🏁 Como Executar o Projeto
+## Como Executar o Projeto
 
 Para executar o projeto localmente, você precisará ter o backend e o frontend rodando simultaneamente.
 
